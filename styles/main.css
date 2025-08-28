@@ -83,7 +83,7 @@ margin-bottom: 26px ;
     
 }
 
-.div4 button{
+.div4 .first{
     border-radius: 8px;
 background: rgba(82, 195, 3, 1);
     padding: 15px 25px 15px 25px;
@@ -91,4 +91,126 @@ background: rgba(82, 195, 3, 1);
     border: 20px;
     border-radius: 5px 5px 5px blueviolet;
 
+}
+
+
+
+
+/* This Css is for card sections */
+
+#card-section{
+    /* background-color: tomato; */
+    margin: 100px 320px 150px 320px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+#card-section .div5 .div6{
+    margin: 0px 210px 50px 210px;
+    /* background-color: bisque; */
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: undefined;
+
+}
+
+#card-section .div5 .title{
+       color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+
+#card-section .div5 .subtitle{
+    color: rgba(16, 16, 16, 1);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+ .div7{
+    width: 250px;
+    height: 175px;
+    font-family: Work Sans;
+
+    background-size: cover;
+
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+img{
+    width: 100%;
+}
+
+.div7 .pizzaburg .pizzabtn{
+    padding: 5px 20px 5px 20px;
+      margin: 20px 0px 20px 65px;
+      /* border-radius: 8px; */
+background: rgba(82, 195, 3, 0.15);
+/* box-sizing: content-box; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pizzabtn{
+    
+}
+
+/* .btn{
+ 
+    border-radius: 8px;
+background: rgba(82, 195, 3, 1);
+    padding: 15px 25px 15px 25px;
+    color: rgba(255, 255, 255, 1);
+    border: 20px;
+    border-radius: 5px 5px 5px blueviolet;
+} */
+
+.div7 p{
+    
+color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+
+}
+
+.div7 h2{
+   text-align: center;
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%; 
+margin-bottom: 20px;
+
+}
+
+.mainpoint{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 30px;
 }
