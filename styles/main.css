@@ -1,0 +1,94 @@
+/* This is the process of importing the font {Font Intigration} */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+*{
+    /* by default padding and margin ke 0 kore dey jei margin and padding ta browser automatically dey */
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+
+/* transform: rotate(-180.00deg); */
+
+    background: linear-gradient(
+        0deg,
+    rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1) -19.5%,
+    rgba(16, 16, 16, 0) 100%
+    ), 
+     url("../assets/hero-bg.png");
+     
+     height: 820px;
+    /* width: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#hero .content{
+    width: 820px;
+    /* margin-top: 60px; */
+    /* height: 280px; */
+    /* margin: 0 auto; */
+}
+
+#hero .content .div1{
+    color: rgba(255, 255, 255, 1);
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 650;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 12px;
+}
+
+#hero .content .div2{
+      color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 50px;
+font-weight: 700px;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+
+#hero .content .div3{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 14.5px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 26px ;
+
+}
+
+.div4{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div4 button{
+    border-radius: 8px;
+background: rgba(82, 195, 3, 1);
+    padding: 15px 25px 15px 25px;
+    color: rgba(255, 255, 255, 1);
+    border: 20px;
+    border-radius: 5px 5px 5px blueviolet;
+
+}
