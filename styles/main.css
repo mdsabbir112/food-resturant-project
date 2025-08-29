@@ -6,6 +6,41 @@
     /* by default padding and margin ke 0 kore dey jei margin and padding ta browser automatically dey */
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+}
+.navigation{
+        /* background-image: url("../assets/foods.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: auto;
+    display: flex;
+    justify-content: center;
+        /* align-items: center; */
+    height: 70px;
+
+    background: linear-gradient(
+        0deg,
+    rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1) -50.5%,
+    rgba(16, 16, 16, 0) 100%
+    );
+}
+nav>div p{
+    color: black;
+    display: inline-block;
+    /* flex-direction: row; */
+    /* gap: 20px; */
+    padding: 20px;
+    text-shadow: 3px 3px 5px blueviolet;  
+    
+}
+nav>div p:hover{
+    color: red;
+}
+
+.display >p{
+    display: flex;
+    
 }
 
 #hero{
@@ -239,13 +274,155 @@ margin-bottom: 50px ;
 
 /* This is for the footers Sections for my web page  */
 
-
-
 .final{
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    flex-wrap: wrap;
 
-    background-color: tomato;
+}
+
+
+.final-page{
+
+    /* background-image: url("../assets/foods.png"); */
+
+    background: linear-gradient(
+        0deg,
+    rgb(119, 105, 105) -19.5%,
+    rgb(119, 105, 105) 100%
+    ), url("../assets/foods.png");
+
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+  
    width: 1536px;
     height: 671px;
+
+  
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 
+}
+
+.mahil{
+    text-align: center;
+
+    height: 160px;
+    width: 600px;
+   color: aliceblue;
+    
+    /* color: rgba(16, 16, 16, 1); */
+
+font-family: Work Sans;
+font-size: 36px;
+font-weight: 650;
+line-height: 64px;
+letter-spacing: 0%;
+/* text-align: center; */
+/* margin-top: 137 px ;
+margin-bottom: 20px; */
+
+/* margin: 100px; */
+
+}
+.jamil{
+/* color: rgba(16, 16, 16, 1); */
+color: aliceblue;
+display: flex;
+    justify-content: center;    
+    align-items: center;
+
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.8;
+margin-bottom: 48px;
+}
+.sahil{
+   opacity: 0.9;
+   /* color: rgba(16, 16, 16, 1); */
+   color: blue;
+   display: flex;
+    justify-content: center;    
+    align-items: center;
+
+font-family: Work Sans;
+width: 900px;
+font-size: 32px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+
+}
+
+.images{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    border-radius: 10px;
+
+
+    width: 40px;
+    height: 40px;
+
+}
+.image .ing{
+    border-radius: 10px;
+}
+.image .int {
+    border-radius: 28px;
+}
+
+  .sahil {
+  border-top: 2px solid white;
+  padding: 10px;
+  /* padding-bottom: 20px; */
+  border-bottom: 2px solid white;
+  border-width: 5px;
+  
+}
+
+
+
+.adjust{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    border-top: 30px;
+    gap: 0px;
+    /* image-rendering: auto; */
+
+    
+}
+
+.adjust .same{
+    width: 414;
+    /* height: 100%; */
 }
